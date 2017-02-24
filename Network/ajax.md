@@ -2,7 +2,7 @@
 
 ​	ajax是使用脚本操纵http和web服务器进行数据交换，并且不会导致页面重载；comet技术与ajax相反，ajax是客户端向服务器请求数据，而comet是服务器推送数据到客户端；
 
-​	实现ajax的方式有很多种，例如：<img>标签的src属性当设置后，会发送一个http的get请求；<iframe>标签的src属性，iframe比img更加强大一些，可以接受src加载后返回的数据，并加载到页面中，我们可以通过遍历iframe文档来处理响应内容；<script>标签的src可以发起http的get请求，并且script是可以跨域通信，当执行脚本时，服务器返回json格式的响应，js能够自动将其解码，这种方式也叫做“jsonp”；另外还有更简单的方式为XMLHttpRequest；
+​	实现ajax的方式有很多种，例如：<img>标签的src属性当设置后，会发送一个http的get请求；<iframe>标签的src属性，iframe比img更加强大一些，可以接受src加载后返回的数据，并加载到页面中，我们可以通过遍历iframe文档来处理响应内容；<script>标签的src可以发起http的get请求，并且script是可以跨域通信，当执行脚本时，服务器返回json格式的响应，js能够自动将其解码，这种方式也叫做“jsonp”；另外还有更简单的方式为XMLHttpRequest；​
 
 ​	comet传输协议需要客户端和服务器之间建立一个保持开启的连接，当服务器发送消息到客户端后，将这个连接关闭，客户端处理该消息之后，客户端马上为后续消息建立一个新的连接；
 
