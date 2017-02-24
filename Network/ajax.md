@@ -2,7 +2,7 @@
 
 ​	ajax是使用脚本操纵http和web服务器进行数据交换，并且不会导致页面重载；comet技术与ajax相反，ajax是客户端向服务器请求数据，而comet是服务器推送数据到客户端；
 
-​	实现ajax的方式有很多种，例如：<img>标签的src属性当设置后，会发送一个http的get请求；<iframe>标签的src属性，iframe比img更加强大一些，可以接受src加载后返回的数据，并加载到页面中，我们可以通过遍历iframe文档来处理响应内容；<script>标签的src可以发起http的get请求，并且script是可以跨域通信，当执行脚本时，服务器返回json格式的响应，js能够自动将其解码，这种方式也叫做“jsonp”；另外还有更简单的方式为XMLHttpRequest；​
+​	实现ajax的方式有很多种，例如：img标签的src属性当设置后，会发送一个http的get请求；iframe标签的src属性，iframe比img更加强大一些，可以接受src加载后返回的数据，并加载到页面中，我们可以通过遍历iframe文档来处理响应内容；script标签的src可以发起http的get请求，并且script是可以跨域通信，当执行脚本时，服务器返回json格式的响应，js能够自动将其解码，这种方式也叫做“jsonp”；另外还有更简单的方式为XMLHttpRequest；
 
 ​	comet传输协议需要客户端和服务器之间建立一个保持开启的连接，当服务器发送消息到客户端后，将这个连接关闭，客户端处理该消息之后，客户端马上为后续消息建立一个新的连接；
 
@@ -64,7 +64,7 @@ xhr对象由readyState属性用来表示请求的状态，它是一个整数：0
 
 1. xhr2设置CORS（Cross-Origin Resource Sharing，跨域资源共享）允许跨域访问网站，ie8通过XDomainRequest对象支持它；通过测试xhr的withCredentials属性可以查看浏览器是否支持cors方式；
 
-2. 使用<script>（jsonp）:使用jsonp方式发送请求时，第三方脚本必须是我们可信任的，攻击者可以通过攻击第三方服务器来接管你的网页，从而运行他的代码，这是很危险的；对于可信任的jsonp，其响应内容是用js函数名和圆括号包裹起来的，例如：handleResponse ( response_data )，当返回后，这个函数就会成为script标签的内容，然后自动去执行；这个回调函数的名字，我们可以通过发送名为jsonp的参数来指定，或者还有一个常见的callback参数；
+2. 使用script标签（jsonp）:使用jsonp方式发送请求时，第三方脚本必须是我们可信任的，攻击者可以通过攻击第三方服务器来接管你的网页，从而运行他的代码，这是很危险的；对于可信任的jsonp，其响应内容是用js函数名和圆括号包裹起来的，例如：handleResponse ( response_data )，当返回后，这个函数就会成为script标签的内容，然后自动去执行；这个回调函数的名字，我们可以通过发送名为jsonp的参数来指定，或者还有一个常见的callback参数；
 
    ```javascript
    function jsonpCallback(result) {    
