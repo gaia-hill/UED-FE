@@ -7,17 +7,17 @@ front end development note
 
 - Javascript
 
-  - [fragment]: https://github.com/okmengzhilin/UED-FE/blob/master/JavaScript/fragment.md	"fragment"
+  - [fragment](https://github.com/okmengzhilin/UED-FE/blob/master/JavaScript/fragment.md)
 
-  - [eval]: https://github.com/okmengzhilin/UED-FE/blob/master/JavaScript/eval.md	"eval"
+  - [eval](https://github.com/okmengzhilin/UED-FE/blob/master/JavaScript/eval.md)
 
-  - [Object]: https://github.com/okmengzhilin/UED-FE/blob/master/JavaScript/Object.md	"object"
+  - [Object](https://github.com/okmengzhilin/UED-FE/blob/master/JavaScript/Object.md)
 
 - Network
 
-  - [ajax]: https://github.com/okmengzhilin/UED-FE/blob/master/Network/ajax.md	"ajax"
+  - [ajax](https://github.com/okmengzhilin/UED-FE/blob/master/Network/ajax.md)
 
-  - [http]: https://github.com/okmengzhilin/UED-FE/blob/master/Network/http.md	"http"
+  - [http](https://github.com/okmengzhilin/UED-FE/blob/master/Network/http.md)
 
-  - [tcp]: https://github.com/okmengzhilin/UED-FE/blob/master/Network/tcp.md	"tcp"
+  - [tcp](https://github.com/okmengzhilin/UED-FE/blob/master/Network/tcp.md)
 
