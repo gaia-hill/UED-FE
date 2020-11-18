@@ -10,7 +10,7 @@
                <key>kind</key>
                <string>software-package</string>
                <key>url</key>
-               <string><![CDATA[http://10.33.144.63:3000/Provenance-iOS-1.5b-2774.ipa]]></string>
+               <string><![CDATA[http://10.33.144.63:3000/Provenance-iOS-1.5b-2774-my.ipa]]></string>
              </dict>
              <dict>
                <key>kind</key>
@@ -18,7 +18,7 @@
                <key>needs-shine</key>
                <integer>0</integer>
                <key>url</key>
-               <string><![CDATA[https://family.ke.com/myInfo/profile#baseInfo]]></string>
+               <string><![CDATA[http://img.ljcdn.com/usercenter/images/uc_ehr_avatar/31591e34-e443-40fd-900b-1428fdc7bf8f.jpg]]></string>
              </dict>
              <dict>
                <key>kind</key>
@@ -26,7 +26,7 @@
                <key>needs-shine</key>
                <true/>
                <key>url</key>
-               <string><![CDATA[https://family.ke.com/myInfo/profile#baseInfo]]></string>
+               <string><![CDATA[http://img.ljcdn.com/usercenter/images/uc_ehr_avatar/31591e34-e443-40fd-900b-1428fdc7bf8f.jpg]]></string>
              </dict>
            </array>
            <key>metadata</key>
